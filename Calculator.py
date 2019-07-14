@@ -16,8 +16,12 @@ def divide(a, b):
     else:
         print("Zero division!")
         exit()
-    
+
 
 
 first_num = int(input("Give first number:"))
 second_num =int(input("Give second number:"))
+print(add(first_num,second_num))
+print(subtract(first_num,second_num))
+print(multiple(first_num,second_num))
+print(divide(first_num,second_num))
