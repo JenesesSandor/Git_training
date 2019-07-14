@@ -11,7 +11,11 @@ def multiple(a, b):
 
 
 def divide(a, b):
-    pass
+    if b != 0:
+        return a / b
+    else:
+        print("Zero division!")
+        exit()  
 
 
 first_num = int(input("Give first number:"))
