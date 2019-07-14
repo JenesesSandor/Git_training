@@ -11,7 +11,7 @@ def multiple(a, b):
 
 
 def divide(a, b):
-    pass
+    return a / b
 
 
 first_num = int(input("Give first number:"))
