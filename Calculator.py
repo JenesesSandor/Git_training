@@ -16,7 +16,7 @@ def divide(a, b):
     else:
         print("Zero division!")
         exit()
-    return a / b
+    
 
 
 first_num = int(input("Give first number:"))
