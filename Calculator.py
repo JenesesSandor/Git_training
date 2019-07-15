@@ -17,6 +17,9 @@ def divide(a, b):
         print("Zero division!")
         exit()
 
+def square(a,b):
+    pass
+
 
 
 first_num = int(input("Give first number:"))
